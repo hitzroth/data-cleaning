@@ -1,6 +1,6 @@
 Variable -- Description<br/>
 subject -- the subject number<br/>
-activity -- the activity of the subject number<br/>
+activity -- the activity of the subject number<br/> <br/>
 The following variables were culled from the list of all variables by the criteria that they were explicitly the result of mean or standard deviation functions, as indicated by either "mean()" or "std()" in their name. Other "mean" variables were excluded because their names were ambiguous as to the nature of the mean.<br/>
 The entries for the variables below represent arithemetic means of the data from the corresponding variable in the original dataset, controlling for "subject" and "activity", and performed over the combined "test" and "train" datasets.<br/>
 The variable names below differ slightly from the original entries in that special characters have been replaced with dots. This change was made automatically in R and was allowed to remain in place in order to ensure the smooth-functioning of several functions in the dplyr package. If desired, the variable names may be reconstituted by replacing single dots (".") with hyphens ("-"), double dots ("..") with paired parentheses ("()"), and triple dots ("...") with paired parentheses followed by a hyphen ("()-"). I see no particular advantage of such an effort if dplyr will continue to be used.<br/>
